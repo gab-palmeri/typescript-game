@@ -21,7 +21,7 @@ class ExpressInit
         });
 
         this.exp.use('/client', express.static(path.join(__dirname, '../client')));
-        this.server.listen(2000);
+        this.server.listen(process.env.PORT || 2000);
     }
 }
 
