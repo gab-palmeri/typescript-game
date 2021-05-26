@@ -1,0 +1,27 @@
+{
+  "name": "typescript-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./js/Main.js",
+  "scripts": {
+    "build": "rm -rf js && tsc",
+    "start": "nodemon --watch ./js/",
+    "server": "npm run build && npm run start"
+  },
+  "dependencies": {
+    "@types/express": "^4.11.1",
+    "@types/node": "^10.0.4",
+    "@types/socket.io": "^1.4.33",
+    "express": "^4.16.3",
+    "remove": "^0.1.5",
+    "socket.io": "^2.1.0",
+    "typescript-map": "^0.1.0",
+    "uws": "^10.148.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^4.3.0",
+    "typescript": "^3.0.0-dev.20180522"
+  }
+}

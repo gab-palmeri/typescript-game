@@ -1,0 +1,20 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "removeComments": true,
+        "target": "es5",
+        "lib": ["es5", "es6", "dom"],
+        "outDir": "./js",
+        "typeRoots": [
+            "./node_modules/@types",
+        ],
+        "types": [
+            "express",
+            "socket.io"
+        ],
+    },
+    "include": [
+        "./ts/*",
+    ],
+    "exclude": ["node_modules", "js", "client"]
+}
