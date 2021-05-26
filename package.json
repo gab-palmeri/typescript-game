@@ -5,8 +5,8 @@
   "main": "./js/Main.js",
   "scripts": {
     "build": "rm -rf js && tsc",
-    "start": "nodemon --watch ./js/",
-    "server": "npm run build && npm run start"
+    "watch": "nodemon --watch ./js/",
+    "start": "node ./js/Main.js",
   },
   "dependencies": {
     "@types/express": "^4.11.1",
