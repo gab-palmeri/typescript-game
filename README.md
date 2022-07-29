@@ -5,7 +5,7 @@ This repository is a rivisitation of the following tutorial series: https://www.
 
 ## Usage
 1. Clone the repository
-2. Run npm install
+2. Run ```npm install```
 3. Make sure that nodemon and ts-node are installed
 4. Run ```nodemon ts/Main.ts```
 5. Navigate to localhost:2000
